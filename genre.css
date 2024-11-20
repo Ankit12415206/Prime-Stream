@@ -1,0 +1,347 @@
+/* Basic Reset */
+/* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header Section */
+/*.header {
+    background-color: #0f171e;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 50px;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header .navbar a {
+    color: #bbb;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.header .navbar a:hover {
+    color: #fff;
+}
+
+.header .user-profile {
+    background-color: #1a2933;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+/* Main Content */
+/*.main-content {
+    background-color: #141e27;
+    color: #fff;
+    padding: 20px 50px;
+}
+
+/* Genres Grid Layout */
+/*.genres-grid {
+    margin-top: 20px;
+    color: #fff;
+}
+
+.genres-grid h2 {
+    margin-bottom: 10px;
+    padding: 0 50px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 0 50px;
+}
+/* Styling for movie card container */
+/*.genre-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    background-color: #222;
+    transition: transform 0.2s ease;
+}
+
+.genre-card:hover {
+    transform: scale(1.05);
+}
+
+/* Styling for the images inside the movie cards */
+/*.genre-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    transition: opacity 0.2s ease;
+}
+
+/* Optional: Add a hover effect for a more interactive feel */
+/*.genre-card:hover img {
+    opacity: 0.9;
+}
+/* Footer Styles */
+/*.footer {
+    background-color: #333;
+    color: #e5e5e5;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    border-top: 1px solid #444;
+}
+
+.footer-content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #e5e5e5;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #0071eb; /* Prime Video blue on hover */
+/*}
+
+/*.footer-copyright {
+    font-size: 12px;
+    color: #888;
+}
+/* Basic Reset */
+/* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header Section */
+/*.header {
+    background-color: #0f171e;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 50px;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0071eb; /* Prime Video blue */
+/*}
+
+/*.header .navbar a {
+    color: #bbb;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.header .navbar a:hover {
+    color: #fff;
+}
+
+.header .user-profile {
+    background-color: #1a2933;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 16px;
+}
+*/
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header Section */
+.header {
+    background-color: #0f171e;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 50px;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0071eb;
+}
+
+.header .navbar a {
+    color: #bbb;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.header .navbar a:hover {
+    color: #fff;
+}
+
+.header .user-profile {
+    background-color: #1a2933;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+/* Main Content */
+.main-content {
+    background-color: #141e27;
+    color: #fff;
+    padding: 20px 50px;
+}
+
+/* Genres Grid Layout */
+.genres-grid {
+    color: #fff;
+    margin-top: 30px;
+}
+
+.genres-grid h2 {
+    padding: 0 50px;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #e5e5e5;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 0 50px;
+}
+
+/* Genre and Movie Card Styles */
+.genre-card,
+.movie-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    background-color: #222;
+    transition: transform 0.3s ease;
+}
+
+.genre-card:hover,
+.movie-card:hover {
+    transform: scale(1.05);
+}
+
+.genre-card img,
+.movie-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    transition: opacity 0.3s ease;
+}
+
+.genre-card:hover img,
+.movie-card:hover img {
+    opacity: 0.9;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #333;
+    color: #e5e5e5;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    border-top: 1px solid #444;
+}
+
+.footer-content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #e5e5e5;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #0071eb;
+}
+
+.footer-links a:focus {
+    outline: 2px solid #0071eb;
+    border-radius: 5px;
+}
+
+.footer-links a:active {
+    color: #005bb5;
+}
+
+/* Footer Copyright */
+.footer-content p {
+    font-size: 12px;
+    color: #888;
+    margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .header .logo {
+        margin-bottom: 10px;
+    }
+
+    .main-content {
+        padding: 20px;
+    }
+
+    .genres-grid h2 {
+        padding: 0;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .grid-container {
+        padding: 0;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+
+    .footer {
+        padding: 20px 10px;
+    }
+}

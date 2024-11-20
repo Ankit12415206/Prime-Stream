@@ -1,0 +1,126 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header Section */
+.header {
+    background-color: #0f171e;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 50px;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0071eb;
+}
+
+.header .navbar a {
+    color: #bbb;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.header .navbar a:hover {
+    color: #fff;
+}
+
+.header .user-profile {
+    background-color: #1a2933;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.body {
+    background-color: #0f171e;
+}
+/* Terms of Use Page Styles */
+.terms-content {
+    background-color: #141e27;
+    color: #fff;
+    padding: 40px 50px;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.terms-content h1 {
+    font-size: 28px;
+    color: #e5e5e5;
+    margin-bottom: 20px;
+}
+
+.terms-content p {
+    font-size: 16px;
+    color: #ccc;
+    margin-bottom: 30px;
+}
+
+.terms-section {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #1a2933;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.terms-section h2 {
+    font-size: 24px;
+    color: #0071eb;
+    margin-bottom: 10px;
+}
+
+.terms-section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #e5e5e5;
+    text-align: left;
+}
+
+.terms-section li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+/* Footer Styles */
+.footer {
+    background-color: #333;
+    color: #e5e5e5;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    border-top: 1px solid #444;
+}
+
+.footer-content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #e5e5e5;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #0071eb; /* Prime Video blue on hover */
+}
+
+.footer-copyright {
+    font-size: 12px;
+    color: #888;
+}

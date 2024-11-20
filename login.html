@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime Stream - Login</title>
+    <link rel="stylesheet" href="login.css">
+    
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-header">Login to Prime Stream?</div>
+        <form id="loginForm" action="index.html" method="post">
+            Email<span style="color: red;">*</span><input type="email" id="email" name="email" placeholder="Email" class="login-input" required>
+            Password<span style="color: red;">*</span><input type="password" id="password" name="password" placeholder="Password" class="login-input" required>
+            <button type="submit" class="login-button" >Login</button>
+            <div id="errorMessage" class="error-message"></div>
+        </form>
+        <div class="login-footer">
+            <p>New to Prime Stream? <a href="sign.html">Sign up now</a></p>
+        </div>
+    </div>
+
+    <script>
+        // JavaScript for form validation
+        document.getElementById("loginForm").addEventListener("submit", function(event) {
+            // Get the email and password values
+            const email = document.getElementById("email").value;
+            const password = document.getElementById("password").value;
+            const errorMessage = document.getElementById("errorMessage");
+
+            // Check if any field is empty
+            if (email === "" || password === "") {
+                // Prevent form submission
+                event.preventDefault();
+
+                // Display error message
+                errorMessage.textContent = "Filling all the fields is mandatory.";
+            } else {
+                // Clear any previous error message
+                errorMessage.textContent = "";
+            }
+        });
+    </script>
+</body>
+</html>
